@@ -96,6 +96,7 @@ header {
     gap: 10px;
     margin-top: 64px;
     margin-bottom: 65px;
+    border-bottom: 1px solid #969696;
 }
 
 .secondContainer {
@@ -103,7 +104,7 @@ header {
     justify-content: center;
     align-items: flex-start;
     gap: 24px;
-    border-bottom: #969696;
+    /* border-bottom:1px solid #969696; */
 }
 
 .blueP {
@@ -200,4 +201,28 @@ header {
 
 .fifthHeader {
     width: 50%;
+}
+
+.fifthHeader h3 {
+    color: #07081A;
+    font-size: 24px;
+}
+.fifthPar p{
+    color: #155EEF;
+font-size: 14px;
+}
+.footerFrame{
+    border-top: 1px solid #F1EBFF;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 40px;
+}
+.footerImages{
+    display: flex;
+align-items: center;
+gap: var(--spacing-3xl, 24px);
+width: 100%;
+max-width: 1040px;
+justify-content: flex-end;
 }
